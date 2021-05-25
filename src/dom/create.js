@@ -1,8 +1,20 @@
 import isArray from '../lang/isArray';
 
+/**
+ * 
+ * The `create()` function creates the HTML element specified by the `tag`. Optional `attributes` and `text` can be added.
+ * 
+ * ```js
+ * __.dom.create(tag, attributes, text);
+ * ```
+ * 
+ * @param {string} tag 
+ * @param {Object} attributes [input={}]
+ * @param {string} text [input=undefined]
+ * @returns Element
+ */
 function create(tag, attributes, text) {
     const element = document.createElement(tag);
-
 
     for (const key in attributes) {
         let val = attributes[key];

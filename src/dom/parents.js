@@ -2,6 +2,20 @@ import isUndefined from '../lang/isUndefined';
 
 const NODE_TEXT = 3
 
+/**
+ * 
+ * The `parents()` function returns all ancestor elements of the specified `element`. Optionally add a `selector` to match elements against.
+ * 
+ * An ancestor is a parent, grandparent, great-grandparent, and so on. 
+ * 
+ * ```js
+ * __.dom.parents(element, selector);
+ * ```
+ * 
+ * @param {Element} element 
+ * @param {string} selector [input=undefined]
+ * @returns {array}
+ */
 function parents(element, selector) {
     const parents = []
 

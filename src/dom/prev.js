@@ -1,7 +1,21 @@
 import isUndefined from '../lang/isUndefined';
 
+/**
+ * 
+ * The `prev()` function returns the previous sibling element of the specified `element`.  Optionally a `selector` can be added to be more specific. 
+ * 
+ * Sibling elements are elements that share the same parent.
+ * 
+ * ```js
+ * __.dom.prev(element, selector);
+ * ```
+ * 
+ * @param {Element} element 
+ * @param {string} selector [input=undefined]
+ * @returns {Element}
+ */
 function prev(element, selector) {
-    let previous = element.previousElementSibling
+    let previous = element.previousElementSibling;
 
     if (isUndefined(selector)) {
         return previous;
@@ -9,13 +23,13 @@ function prev(element, selector) {
 
     while (previous) {
       if (previous.matches(selector)) {
-        return [previous]
+        return previous;
       }
 
-      previous = previous.previousElementSibling
+      previous = previous.previousElementSibling;
     }
 
-    return []
+    return undefined;
 }
 
 export default prev;
