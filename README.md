@@ -31,10 +31,10 @@ eg.\
 ```js
 __.dom.parents(element, target)
 ```
-\
-library  = __ \ 
-category = dom \
-function = parents \
+
+library  = __  
+category = dom  
+function = parents  
 
 ## after
 
