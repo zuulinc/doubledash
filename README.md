@@ -23,13 +23,17 @@ We orginiaze our functions into categories:
 
 The name space is broken down by the library, category and function name.
 
-`{library}.{category}.{function}`
+```js
+{library}.{category}.{function}
+```
 
 eg.\
-`__.dom.parents(element, target)`\
-library  = __\ 
-category = dom\
-function = parents\
+```js
+__.dom.parents(element, target)```
+\
+library  = __ \ 
+category = dom \
+function = parents \
 
 ## after
 
