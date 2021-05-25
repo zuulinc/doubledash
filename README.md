@@ -25,14 +25,13 @@ The name space is broken down by the library, category and function name.
 
 `{library}.{category}.{function}`
 
-eg.
-`__.dom.parents(element, target)`
-__      = library
-dom     = category
-parents = function
+eg.\
+`__.dom.parents(element, target)`\
+library  = __\ 
+category = dom\
+function = parents\
 
-
-## after (aka extend)
+## after
 
 The after() function inserts specified element after the selected target.
 
