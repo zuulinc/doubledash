@@ -29,7 +29,8 @@ The name space is broken down by the library, category and function name.
 
 eg.\
 ```js
-__.dom.parents(element, target)```
+__.dom.parents(element, target)
+```
 \
 library  = __ \ 
 category = dom \
