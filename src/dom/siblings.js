@@ -8,7 +8,7 @@ Sibling elements are elements that share the same parent.
 __.dom.siblings(element);
 ```
 
- * @param {Element} element 
+ * @param {Element} [element] 
  * @returns {array}
  */
 function siblings(element) {

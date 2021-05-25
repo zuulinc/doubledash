@@ -9,7 +9,7 @@
   },
   "scripts": {
     "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
-    "docs": "documentation build src/index.js -f md > api.md"
+    "docs": "documentation --markdown-toc=false readme src/index.js --section=API"
   },
   "jest": {
     "verbose": true,

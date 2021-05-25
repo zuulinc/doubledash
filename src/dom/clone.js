@@ -7,7 +7,7 @@
  * __.dom.clone(element);
  * ```
  * 
- * @param {Element} element 
+ * @param {Element} [element]
  * @returns {Element}
  */
 function clone(element) {

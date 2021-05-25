@@ -8,10 +8,10 @@ import isArray from '../lang/isArray';
  * __.dom.create(tag, attributes, text);
  * ```
  * 
- * @param {string} tag 
- * @param {Object} attributes [input={}]
- * @param {string} text [input=undefined]
- * @returns Element
+ * @param {string} [tag] 
+ * @param {Object} [attributes={}]
+ * @param {string} [text=undefined]
+ * @returns {Element}
  */
 function create(tag, attributes, text) {
     const element = document.createElement(tag);

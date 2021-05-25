@@ -10,7 +10,7 @@
  * ```
  * 
  * @param {string} selector 
- * @param {Element} element [input=document]
+ * @param {Element} [element=document.documentElement]
  * @returns {Element}
  */
 function findOne(selector, element = document.documentElement) {

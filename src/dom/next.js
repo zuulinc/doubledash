@@ -11,7 +11,7 @@ import isUndefined from '../lang/isUndefined';
  * ```
  * 
  * @param {Element} element 
- * @param {string} selector [input=undefined]
+ * @param {string} [selector=undefined]
  * @returns {Element}
  */
 function next(element, selector) {

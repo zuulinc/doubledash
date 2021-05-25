@@ -10,8 +10,8 @@ import isUndefined from '../lang/isUndefined';
  * __.dom.prev(element, selector);
  * ```
  * 
- * @param {Element} element 
- * @param {string} selector [input=undefined]
+ * @param {Element} [element] 
+ * @param {string} [selector=undefined]
  * @returns {Element}
  */
 function prev(element, selector) {

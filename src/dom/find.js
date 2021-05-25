@@ -9,8 +9,8 @@
  * __.dom.find(selector, element);
  * ```
  * 
- * @param {string} selector 
- * @param {Element} element [input=document]
+ * @param {string} [selector] 
+ * @param {Element} [element=document.documentElement]
  * @returns {array}
  */
 function find(selector, element = document.documentElement) {

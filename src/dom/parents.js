@@ -12,8 +12,8 @@ const NODE_TEXT = 3
  * __.dom.parents(element, selector);
  * ```
  * 
- * @param {Element} element 
- * @param {string} selector [input=undefined]
+ * @param {Element} [element] 
+ * @param {string} [selector=undefined]
  * @returns {array}
  */
 function parents(element, selector) {

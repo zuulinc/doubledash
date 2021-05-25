@@ -6,7 +6,7 @@
  * __.dom.index(element);
  * ```
  * 
- * @param {Element} element 
+ * @param {Element} [element] 
  * @returns {number}
  */
 function index(element) {

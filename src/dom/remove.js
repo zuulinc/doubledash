@@ -6,7 +6,7 @@
 __.dom.remove(element);
 ```
  * 
- * @param {Element} element 
+ * @param {Element} [element] 
  */
 function remove(element) {
     element.parentNode.removeChild(element);

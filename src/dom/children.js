@@ -8,8 +8,8 @@ import isUndefined from '../lang/isUndefined';
  * __.dom.children(element, selector);
  * ```
  * 
- * @param {Element} element 
- * @param {string} selector [input=undefined]
+ * @param {Element} [element] 
+ * @param {string} [selector=undefined]
  * @returns {array}
  */
 function children(element, selector) {

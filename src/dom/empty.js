@@ -7,7 +7,7 @@
  * __.dom.empty(element);
  * ```
  * 
- * @param {Element} element 
+ * @param {Element} [element] 
  */
 function empty(element) {
     while(element.firstChild)
