@@ -2,8 +2,8 @@ import isString from '../lang/isString';
 
 /**
  * 
- * @param {Element} [element] 
- * @param {string|Element} [child] 
+ * @param {Element} element
+ * @param {string|Element} child
  * @returns {boolean}
  */
 function contains(element, child) {

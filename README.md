@@ -27,7 +27,7 @@ The name space is broken down by the library, category and function name.
 {library}.{category}.{function}
 ```
 
-eg.\\
+eg.
 
 ```js
 __.dom.parents(element, target)
@@ -51,8 +51,8 @@ __.dom.after(element, target);
 
 #### Parameters
 
-*   `element` **[Element](https://developer.mozilla.org/docs/Web/API/Element)?** 
-*   `target` **[Element](https://developer.mozilla.org/docs/Web/API/Element)?** 
+*   `element` **[Element](https://developer.mozilla.org/docs/Web/API/Element)** 
+*   `target` **[Element](https://developer.mozilla.org/docs/Web/API/Element)** 
 
 Returns **[Element](https://developer.mozilla.org/docs/Web/API/Element)** 
 
@@ -66,8 +66,8 @@ __.dom.after(element, target);
 
 #### Parameters
 
-*   `element` **[Element](https://developer.mozilla.org/docs/Web/API/Element)?** 
-*   `target` **[Element](https://developer.mozilla.org/docs/Web/API/Element)?** 
+*   `element` **[Element](https://developer.mozilla.org/docs/Web/API/Element)** 
+*   `target` **[Element](https://developer.mozilla.org/docs/Web/API/Element)** 
 
 Returns **[Element](https://developer.mozilla.org/docs/Web/API/Element)** 
 
@@ -81,8 +81,8 @@ __.dom.before(element, target);
 
 #### Parameters
 
-*   `element` **[Element](https://developer.mozilla.org/docs/Web/API/Element)?** 
-*   `target` **[Element](https://developer.mozilla.org/docs/Web/API/Element)?** 
+*   `element` **[Element](https://developer.mozilla.org/docs/Web/API/Element)** 
+*   `target` **[Element](https://developer.mozilla.org/docs/Web/API/Element)** 
 
 Returns **[Element](https://developer.mozilla.org/docs/Web/API/Element)** 
 
@@ -96,7 +96,7 @@ __.dom.children(element, selector);
 
 #### Parameters
 
-*   `element` **[Element](https://developer.mozilla.org/docs/Web/API/Element)?** 
+*   `element` **[Element](https://developer.mozilla.org/docs/Web/API/Element)** 
 *   `selector` **[string](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String)**  (optional, default `undefined`)
 
 Returns **[array](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array)** 
@@ -111,7 +111,7 @@ __.dom.clone(element);
 
 #### Parameters
 
-*   `element` **[Element](https://developer.mozilla.org/docs/Web/API/Element)?** 
+*   `element` **[Element](https://developer.mozilla.org/docs/Web/API/Element)** 
 
 Returns **[Element](https://developer.mozilla.org/docs/Web/API/Element)** 
 
@@ -119,8 +119,8 @@ Returns **[Element](https://developer.mozilla.org/docs/Web/API/Element)**
 
 #### Parameters
 
-*   `element` **[Element](https://developer.mozilla.org/docs/Web/API/Element)?** 
-*   `child` **([string](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String) | [Element](https://developer.mozilla.org/docs/Web/API/Element))?** 
+*   `element` **[Element](https://developer.mozilla.org/docs/Web/API/Element)** 
+*   `child` **([string](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String) | [Element](https://developer.mozilla.org/docs/Web/API/Element))** 
 
 Returns **[boolean](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Boolean)** 
 
@@ -134,7 +134,7 @@ __.dom.create(tag, attributes, text);
 
 #### Parameters
 
-*   `tag` **[string](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String)?** 
+*   `tag` **[string](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String)** 
 *   `attributes` **[Object](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object)**  (optional, default `{}`)
 *   `text` **[string](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String)**  (optional, default `undefined`)
 
@@ -150,7 +150,7 @@ __.dom.index(element);
 
 #### Parameters
 
-*   `element` **[Element](https://developer.mozilla.org/docs/Web/API/Element)?** 
+*   `element` **[Element](https://developer.mozilla.org/docs/Web/API/Element)** 
 
 Returns **[number](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number)** 
 
@@ -164,7 +164,7 @@ __.dom.empty(element);
 
 #### Parameters
 
-*   `element` **[Element](https://developer.mozilla.org/docs/Web/API/Element)?** 
+*   `element` **[Element](https://developer.mozilla.org/docs/Web/API/Element)** 
 
 ### find
 
@@ -178,7 +178,7 @@ __.dom.find(selector, element);
 
 #### Parameters
 
-*   `selector` **[string](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String)?** 
+*   `selector` **[string](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String)** 
 *   `element` **[Element](https://developer.mozilla.org/docs/Web/API/Element)**  (optional, default `document.documentElement`)
 
 Returns **[array](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array)** 
@@ -229,7 +229,7 @@ __.dom.parents(element, selector);
 
 #### Parameters
 
-*   `element` **[Element](https://developer.mozilla.org/docs/Web/API/Element)?** 
+*   `element` **[Element](https://developer.mozilla.org/docs/Web/API/Element)** 
 *   `selector` **[string](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String)**  (optional, default `undefined`)
 
 Returns **[array](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array)** 
@@ -244,8 +244,8 @@ __.dom.prepend(element, target);
 
 #### Parameters
 
-*   `element` **[Element](https://developer.mozilla.org/docs/Web/API/Element)?** 
-*   `target` **[Element](https://developer.mozilla.org/docs/Web/API/Element)?** 
+*   `element` **[Element](https://developer.mozilla.org/docs/Web/API/Element)** 
+*   `target` **[Element](https://developer.mozilla.org/docs/Web/API/Element)** 
 
 Returns **[Element](https://developer.mozilla.org/docs/Web/API/Element)** 
 
@@ -261,7 +261,7 @@ __.dom.prev(element, selector);
 
 #### Parameters
 
-*   `element` **[Element](https://developer.mozilla.org/docs/Web/API/Element)?** 
+*   `element` **[Element](https://developer.mozilla.org/docs/Web/API/Element)** 
 *   `selector` **[string](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String)**  (optional, default `undefined`)
 
 Returns **[Element](https://developer.mozilla.org/docs/Web/API/Element)** 
@@ -276,7 +276,7 @@ __.dom.remove(element);
 
 #### Parameters
 
-*   `element` **[Element](https://developer.mozilla.org/docs/Web/API/Element)?** 
+*   `element` **[Element](https://developer.mozilla.org/docs/Web/API/Element)** 
 
 ### siblings
 
@@ -290,6 +290,6 @@ __.dom.siblings(element);
 
 #### Parameters
 
-*   `element` **[Element](https://developer.mozilla.org/docs/Web/API/Element)?** 
+*   `element` **[Element](https://developer.mozilla.org/docs/Web/API/Element)** 
 
 Returns **[array](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array)** 

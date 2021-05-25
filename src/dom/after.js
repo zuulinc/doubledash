@@ -6,8 +6,8 @@
  * __.dom.after(element, target);
  * ```
  * 
- * @param {Element} [element]
- * @param {Element} [target]
+ * @param {Element} element
+ * @param {Element} target
  * @returns {Element}
  */
 function after(element, target) {

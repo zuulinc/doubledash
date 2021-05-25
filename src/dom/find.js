@@ -9,7 +9,7 @@
  * __.dom.find(selector, element);
  * ```
  * 
- * @param {string} [selector] 
+ * @param {string} selector
  * @param {Element} [element=document.documentElement]
  * @returns {array}
  */

@@ -7,8 +7,8 @@
  * __.dom.prepend(element, target);
  * ```
  * 
- * @param {Element} [element] 
- * @param {Element} [target]
+ * @param {Element} element
+ * @param {Element} target
  * @returns {Element}
  */
 function prepend(element, target) {

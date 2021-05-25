@@ -8,7 +8,7 @@ import isArray from '../lang/isArray';
  * __.dom.create(tag, attributes, text);
  * ```
  * 
- * @param {string} [tag] 
+ * @param {string} tag
  * @param {Object} [attributes={}]
  * @param {string} [text=undefined]
  * @returns {Element}
