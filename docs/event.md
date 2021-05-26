@@ -6,8 +6,8 @@ Add an event listener
 
 #### Parameters
 
-*   `element` **[Element][https://developer.mozilla.org/docs/Web/API/Element]** 
-*   `eventName` **[string][https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String]** 
+*   `element` **[Element](https://developer.mozilla.org/docs/Web/API/Element)** 
+*   `eventName` **[string](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String)** 
 *   `handler` **[Function][https://developer.mozilla.org/docs/Web/JavaScript/Reference/Statements/function]** 
 <br>
 <br>
@@ -18,10 +18,10 @@ Add an event listener to a element that is not in the dom yet.
 
 #### Parameters
 
-*   `element` **[Element][https://developer.mozilla.org/docs/Web/API/Element]** 
-*   `eventName` **[string][https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String]** 
-*   `selector` **[string][https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String]** 
-*   `handler` **[Function][https://developer.mozilla.org/docs/Web/JavaScript/Reference/Statements/function]** 
+*   `element` **[Element](https://developer.mozilla.org/docs/Web/API/Element)** 
+*   `eventName` **[string](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String)** 
+*   `selector` **[string](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String)** 
+*   `handler` **[function](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Statements/function)** 
 <br>
 <br>
 
@@ -31,9 +31,9 @@ Run an event callback exactly once and then automatically remove it. Works the s
 
 #### Parameters
 
-*   `element` **[Element][https://developer.mozilla.org/docs/Web/API/Element]** 
-*   `eventName` **[string][https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String]** 
-*   `handler` **[Function][https://developer.mozilla.org/docs/Web/JavaScript/Reference/Statements/function]** 
+*   `element` **[Element](https://developer.mozilla.org/docs/Web/API/Element)** 
+*   `eventName` **[string](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String)** 
+*   `handler` **[function](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Statements/function)**  
 <br>
 <br>
 
@@ -43,10 +43,10 @@ Run an event callback exactly once and then automatically remove it. Works the s
 
 #### Parameters
 
-*   `element` **[Element][https://developer.mozilla.org/docs/Web/API/Element]** 
-*   `eventName` **[string][https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String]** 
-*   `selector` **[string][https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String]** 
-*   `handler` **[Function][https://developer.mozilla.org/docs/Web/JavaScript/Reference/Statements/function]** 
+*   `element` **[Element](https://developer.mozilla.org/docs/Web/API/Element)** 
+*   `eventName` **[string](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String)** 
+*   `selector` **[string](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String)** 
+*   `handler` **[function](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Statements/function)** 
 <br>
 <br>
 
@@ -56,9 +56,9 @@ Remove an event listener. All three arguments must be identical to the ones used
 
 #### Parameters
 
-*   `element` **[Element][https://developer.mozilla.org/docs/Web/API/Element]** 
-*   `eventName` **[string][https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String]** 
-*   `eventHandler` **[Function][https://developer.mozilla.org/docs/Web/JavaScript/Reference/Statements/function]** 
+*   `element` **[Element](https://developer.mozilla.org/docs/Web/API/Element)** 
+*   `eventName` **[string](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String)** 
+*   `eventHandler` **[function](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Statements/function)** 
 <br>
 <br>
 
@@ -68,8 +68,8 @@ Trigger a native or custom event
 
 #### Parameters
 
-*   `element` **[Element][https://developer.mozilla.org/docs/Web/API/Element]** 
-*   `eventName` **[string][https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String]** 
-*   `args` **[array][https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array]** 
+*   `element` **[Element](https://developer.mozilla.org/docs/Web/API/Element)** 
+*   `eventName` **[string](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String)** 
+*   `args` **[object](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object)** 
 
-Returns **[Event][https://developer.mozilla.org/docs/Web/API/Event]** 
+Returns **[Event](https://developer.mozilla.org/docs/Web/API/Event)** 
