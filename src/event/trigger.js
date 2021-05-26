@@ -7,7 +7,7 @@ import { getTypeEvent } from './helpers';
  * 
  * @param {Element} element 
  * @param {string} eventName 
- * @param {array} args 
+ * @param {object} args 
  * @returns {Event}
  */
 function trigger(element, eventName, args) {
