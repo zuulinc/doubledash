@@ -6,9 +6,9 @@ The `escapeHtml()` function makes html XSS safe.
 
 #### Parameters
 
-*   `string` **[string][https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String]** 
+*   `string` **[string](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String)** 
 
-Returns **[string][https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String]** 
+Returns **[string](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String)**  
 <br>
 <br>
 
@@ -20,7 +20,7 @@ The `isArray()` function determines whether an object is an array.
 
 *   `variable` **any** 
 
-Returns **[boolean][https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Boolean]** 
+Returns **[boolean](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Boolean)** 
 <br>
 <br>
 
@@ -32,7 +32,7 @@ The `isBoolean()` function determines whether an object is an boolean.
 
 *   `variable` **any** 
 
-Returns **[boolean][https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Boolean]** 
+Returns **[boolean](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Boolean)** 
 <br>
 <br>
 
@@ -46,7 +46,7 @@ Empty means undefined, null, NaN, 0, false, '', \[], {}
 
 *   `variable` **any** 
 
-Returns **[boolean][https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Boolean]** 
+Returns **[boolean](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Boolean)** 
 <br>
 <br>
 
@@ -58,7 +58,7 @@ The `isFunction()` function determines whether an object is function.
 
 *   `variable` **any** 
 
-Returns **[boolean][https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Boolean]** 
+Returns **[boolean](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Boolean)** 
 <br>
 <br>
 
@@ -70,7 +70,7 @@ The `isJson()` function determines whether an object is a JSON.
 
 *   `variable` **any** 
 
-Returns **[boolean][https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Boolean]** 
+Returns **[boolean](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Boolean)** 
 <br>
 <br>
 
@@ -82,7 +82,7 @@ The `isNull()` function determines whether an object is null.
 
 *   `variable` **any** 
 
-Returns **[boolean][https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Boolean]** 
+Returns **[boolean](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Boolean)** 
 <br>
 <br>
 
@@ -94,7 +94,7 @@ The `isNumber()` function determines whether an object is a number.
 
 *   `variable` **any** 
 
-Returns **[boolean][https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Boolean]** 
+Returns **[boolean](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Boolean)** 
 <br>
 <br>
 
@@ -106,7 +106,7 @@ The `isObject()` function determines whether an object is a object.
 
 *   `variable` **any** 
 
-Returns **[boolean][https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Boolean]** 
+Returns **[boolean](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Boolean)** 
 <br>
 <br>
 
@@ -118,7 +118,7 @@ The `isRegExp()` function determines whether an object is a regular expression.
 
 *   `variable` **any** 
 
-Returns **[boolean][https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Boolean]** 
+Returns **[boolean](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Boolean)** 
 <br>
 <br>
 
@@ -130,7 +130,7 @@ The `isSet()` function determines whether an object is undefined or null.
 
 *   `variable` **any** 
 
-Returns **[boolean][https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Boolean]** 
+Returns **[boolean](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Boolean)** 
 <br>
 <br>
 
@@ -142,7 +142,7 @@ The `isString()` function determines whether an object is a string.
 
 *   `variable` **any** 
 
-Returns **[boolean][https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Boolean]** 
+Returns **[boolean](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Boolean)** 
 <br>
 <br>
 
@@ -154,4 +154,4 @@ The `isUndefined()` function determines whether an object is undefined.
 
 *   `variable` **any** 
 
-Returns **[boolean][https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Boolean]** 
+Returns **[boolean](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Boolean)** 
