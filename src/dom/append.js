@@ -1,7 +1,9 @@
 /**
  * 
  * The `append()` function inserts the specified `element` at the end of the specified `target`.
- *
+ *  
+ * Category: dom
+ * 
  * ```js
  * __.dom.after(element, target);
  * ```

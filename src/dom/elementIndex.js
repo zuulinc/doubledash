@@ -3,6 +3,8 @@
  * 
  * The `index()` function returns the index position of the specified `element` relative to the element siblings.
  * 
+ * Category: dom
+ * 
  * ```js
  * __.dom.index(element);
  * ```

@@ -3,6 +3,8 @@
  * 
  * The `prepend()` function inserts the specified `element` at the beginning of the specified `target`.
  * 
+ * Category: dom
+ * 
  * ```js
  * __.dom.prepend(element, target);
  * ```

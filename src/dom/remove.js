@@ -2,6 +2,8 @@
 /**
  * The `remove()` function removes the specified `element` and its child elements.
  * 
+ * Category: dom
+ * 
  * ```js
  * __.dom.remove(element);
  * ```

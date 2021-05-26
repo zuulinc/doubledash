@@ -4,6 +4,8 @@ import isArray from '../lang/isArray';
  * 
  * The `create()` function creates the HTML element specified by the `tag`. Optional `attributes` and `text` can be added.
  * 
+ * Category: dom
+ * 
  * ```js
  * __.dom.create(tag, attributes, text);
  * ```

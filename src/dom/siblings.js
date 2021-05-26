@@ -4,6 +4,8 @@
  * 
  * Sibling elements are elements that share the same parent.
  * 
+ * Category: dom
+ * 
  * ```js
  * __.dom.siblings(element);
  * ```

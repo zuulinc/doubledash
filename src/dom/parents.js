@@ -8,6 +8,8 @@ const NODE_TEXT = 3
  * 
  * An ancestor is a parent, grandparent, great-grandparent, and so on. 
  * 
+ * Category: dom
+ * 
  * ```js
  * __.dom.parents(element, selector);
  * ```

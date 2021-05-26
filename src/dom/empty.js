@@ -3,6 +3,8 @@
  * 
  * The `empty()` function removes all child nodes and content from the specified `element`.
  * 
+ * Category: dom
+ * 
  * ```js
  * __.dom.empty(element);
  * ```
