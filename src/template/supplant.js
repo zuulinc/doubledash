@@ -1,6 +1,12 @@
 import settings from '../template/settings';
 import escapeHtml from '../lang/escapeHtml';
 
+/**
+ * 
+ * @param {string} template 
+ * @param {Object} json 
+ * @returns 
+ */
 function supplant(template, json) {
     if (template && template.nodeType === Node.ELEMENT_NODE) {
         template = template.innerHTML;

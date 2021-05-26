@@ -37,26 +37,6 @@ let settings = {
                 return '}' + '\n';
             }
         },
-        'switch': {
-            process: (line, token, statement) => {
-                return 'switch ' + statement + '{' + '\n';
-            }
-        },
-        'case': {
-            process: (line, token, statement) => {
-                return 'case ' + statement + ':' + '\n';
-            }
-        },
-        'default': {
-            process: (line, token, statement) => {
-                return 'default:' + '\n';
-            }
-        },
-        'endswitch': {
-            process: (line, token, statement) => {
-                return '}' + '\n';
-            }
-        },
         'break': {
             process: (line, token, statement) => {
                 return 'break;' + '\n';

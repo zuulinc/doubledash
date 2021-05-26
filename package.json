@@ -9,14 +9,14 @@
   },
   "scripts": {
     "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
-    "docs": "documentation --markdown-toc=false readme src/index.js --section=API"
+    "docs": "documentation --markdown-toc=false build src/index.js -f md > doc.md"
   },
   "jest": {
     "verbose": true,
     "testEnvironment": "jest-environment-node",
     "transform": {},
     "setupFiles": [
-      "./config/mocks/dom.js"
+      "./test/config/mocks/dom.js"
     ]
   },
   "author": "Demetri Mihalakakos",
