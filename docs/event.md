@@ -8,7 +8,7 @@ Add an event listener
 
 *   `element` **[Element](https://developer.mozilla.org/docs/Web/API/Element)** 
 *   `eventName` **[string](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String)** 
-*   `handler` **[Function][https://developer.mozilla.org/docs/Web/JavaScript/Reference/Statements/function]** 
+*   `handler` **[Function](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Statements/function)** 
 <br>
 <br>
 
