@@ -39,4 +39,4 @@ function = parents
 
 ## Documentation
 
-Find our docs here
+Find our docs [here](docs/)
