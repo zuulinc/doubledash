@@ -1,3 +1,9 @@
+/**
+ * The `escapeHtml()` function makes html XSS safe.
+ * 
+ * @param {string} string 
+ * @returns {string}
+ */
 function escapeHtml(string) {
     
     let entityMap = {

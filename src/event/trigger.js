@@ -2,9 +2,17 @@ import settings from './settings';
 import isString from '../lang/isString';
 import { getTypeEvent } from './helpers';
 
+/**
+ * Trigger a native or custom event
+ * 
+ * @param {Element} element 
+ * @param {string} eventName 
+ * @param {array} args 
+ * @returns {Event}
+ */
 function trigger(element, eventName, args) {
 
-    if (isString(eventName) || !element) {
+    if (!isString(eventName) || !element) {
         return
     }
 

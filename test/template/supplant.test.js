@@ -1,6 +1,8 @@
-import supplant from '../../src/template/supplant';
+import on from '../../src/event/on ';
 
 test('template variable test', () => {
+
+    
     var template = `Hello {{message}}!`;
     var json = { message: 'World' };
     

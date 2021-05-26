@@ -9,7 +9,7 @@
   },
   "scripts": {
     "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
-    "docs": "documentation --markdown-toc=false build src/index.js -f md > doc.md"
+    "docs": "documentation --markdown-toc=false build src/event/index.js -f md > doc.md"
   },
   "jest": {
     "verbose": true,
