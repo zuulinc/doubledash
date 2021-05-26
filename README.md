@@ -45,6 +45,8 @@ function = parents
 
 The `after()` function inserts the specified `element` after the specified `target`.
 
+Category: dom
+
 ```js
 __.dom.after(element, target);
 ```
@@ -59,6 +61,8 @@ Returns **[Element](https://developer.mozilla.org/docs/Web/API/Element)**
 ### append
 
 The `append()` function inserts the specified `element` at the end of the specified `target`.
+
+Category: dom
 
 ```js
 __.dom.after(element, target);
@@ -75,6 +79,8 @@ Returns **[Element](https://developer.mozilla.org/docs/Web/API/Element)**
 
 The `before()` function inserts the specified `element` in front of (before) the specified `target`.
 
+Category: dom
+
 ```js
 __.dom.before(element, target);
 ```
@@ -89,6 +95,8 @@ Returns **[Element](https://developer.mozilla.org/docs/Web/API/Element)**
 ### children
 
 The `children()` function returns all direct children of the specified `element`. Optional a `selector` can be added to narrow down your returned results.
+
+Category: dom
 
 ```js
 __.dom.children(element, selector);
@@ -105,6 +113,8 @@ Returns **[array](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Gl
 
 The `clone()` function makes a copy of the specified `element`, including child nodes, text and attributes.
 
+Category: dom
+
 ```js
 __.dom.clone(element);
 ```
@@ -117,6 +127,8 @@ Returns **[Element](https://developer.mozilla.org/docs/Web/API/Element)**
 
 ### contains
 
+Category: dom
+
 #### Parameters
 
 *   `element` **[Element](https://developer.mozilla.org/docs/Web/API/Element)** 
@@ -127,6 +139,8 @@ Returns **[boolean](https://developer.mozilla.org/docs/Web/JavaScript/Reference/
 ### create
 
 The `create()` function creates the HTML element specified by the `tag`. Optional `attributes` and `text` can be added.
+
+Category: dom
 
 ```js
 __.dom.create(tag, attributes, text);
@@ -144,6 +158,8 @@ Returns **[Element](https://developer.mozilla.org/docs/Web/API/Element)**
 
 The `index()` function returns the index position of the specified `element` relative to the element siblings.
 
+Category: dom
+
 ```js
 __.dom.index(element);
 ```
@@ -158,6 +174,8 @@ Returns **[number](https://developer.mozilla.org/docs/Web/JavaScript/Reference/G
 
 The `empty()` function removes all child nodes and content from the specified `element`.
 
+Category: dom
+
 ```js
 __.dom.empty(element);
 ```
@@ -171,6 +189,8 @@ __.dom.empty(element);
 The `find()` function allow you to select and manipulate HTML elements. Optional element to start your search on, by default it uses the entire document.
 
 Selectors are used to "find" (or select) HTML elements based on their name, id, classes, types, attributes, values of attributes and much more. It's based on the existing CSS Selectors.
+
+Category: dom
 
 ```js
 __.dom.find(selector, element);
@@ -189,6 +209,8 @@ The `findOne()` function is similar to `find()` but will only return a single el
 
 Selectors are used to "find" (or select) HTML elements based on their name, id, classes, types, attributes, values of attributes and much more. It's based on the existing CSS Selectors.
 
+Category: dom
+
 ```js
 __.dom.findOne(selector, element);
 ```
@@ -205,6 +227,8 @@ Returns **[Element](https://developer.mozilla.org/docs/Web/API/Element)**
 The `next()` function returns the next sibling element of the specified `element`. Optionally a `selector` can be added to be more specific.
 
 Sibling elements are elements that share the same parent.
+
+Category: dom
 
 ```js
 __.dom.next(element, selector);
@@ -223,6 +247,8 @@ The `parents()` function returns all ancestor elements of the specified `element
 
 An ancestor is a parent, grandparent, great-grandparent, and so on.
 
+Category: dom
+
 ```js
 __.dom.parents(element, selector);
 ```
@@ -237,6 +263,8 @@ Returns **[array](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Gl
 ### prepend
 
 The `prepend()` function inserts the specified `element` at the beginning of the specified `target`.
+
+Category: dom
 
 ```js
 __.dom.prepend(element, target);
@@ -255,6 +283,8 @@ The `prev()` function returns the previous sibling element of the specified `ele
 
 Sibling elements are elements that share the same parent.
 
+Category: dom
+
 ```js
 __.dom.prev(element, selector);
 ```
@@ -270,6 +300,8 @@ Returns **[Element](https://developer.mozilla.org/docs/Web/API/Element)**
 
 The `remove()` function removes the specified `element` and its child elements.
 
+Category: dom
+
 ```js
 __.dom.remove(element);
 ```
@@ -283,6 +315,8 @@ __.dom.remove(element);
 The `siblings()` function returns all sibling elements of the specified `element`.
 
 Sibling elements are elements that share the same parent.
+
+Category: dom
 
 ```js
 __.dom.siblings(element);
