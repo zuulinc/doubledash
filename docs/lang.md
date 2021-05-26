@@ -4,6 +4,10 @@
 
 The `escapeHtml()` function makes html XSS safe.
 
+```js
+__.lang.escapeHtml(string);
+```
+
 #### Parameters
 
 *   `string` **[string](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String)** 
@@ -16,6 +20,10 @@ Returns **[string](https://developer.mozilla.org/docs/Web/JavaScript/Reference/G
 
 The `isArray()` function determines whether an object is an array.
 
+```js
+__.lang.isArray(variable);
+```
+
 #### Parameters
 
 *   `variable` **any** 
@@ -27,6 +35,10 @@ Returns **[boolean](https://developer.mozilla.org/docs/Web/JavaScript/Reference/
 ## isBoolean
 
 The `isBoolean()` function determines whether an object is an boolean.
+
+```js
+__.lang.isBoolean(variable);
+```
 
 #### Parameters
 
@@ -42,6 +54,9 @@ The `isEmpty()` function determines whether an object is empty.
 
 Empty means undefined, null, NaN, 0, false, '', \[], {}
 
+```js
+__.lang.isEmpty(variable);
+```
 #### Parameters
 
 *   `variable` **any** 
@@ -53,6 +68,10 @@ Returns **[boolean](https://developer.mozilla.org/docs/Web/JavaScript/Reference/
 ## isFunction
 
 The `isFunction()` function determines whether an object is function.
+
+```js
+__.lang.isFunction(variable);
+```
 
 #### Parameters
 
@@ -66,6 +85,10 @@ Returns **[boolean](https://developer.mozilla.org/docs/Web/JavaScript/Reference/
 
 The `isJson()` function determines whether an object is a JSON.
 
+```js
+__.lang.isJson(variable);
+```
+
 #### Parameters
 
 *   `variable` **any** 
@@ -77,6 +100,10 @@ Returns **[boolean](https://developer.mozilla.org/docs/Web/JavaScript/Reference/
 ## isNull
 
 The `isNull()` function determines whether an object is null.
+
+```js
+__.lang.isNull(variable);
+```
 
 #### Parameters
 
@@ -90,6 +117,10 @@ Returns **[boolean](https://developer.mozilla.org/docs/Web/JavaScript/Reference/
 
 The `isNumber()` function determines whether an object is a number.
 
+```js
+__.lang.isNumber(variable);
+```
+
 #### Parameters
 
 *   `variable` **any** 
@@ -101,6 +132,10 @@ Returns **[boolean](https://developer.mozilla.org/docs/Web/JavaScript/Reference/
 ## isObject
 
 The `isObject()` function determines whether an object is a object.
+
+```js
+__.lang.isObject(variable);
+```
 
 #### Parameters
 
@@ -114,6 +149,10 @@ Returns **[boolean](https://developer.mozilla.org/docs/Web/JavaScript/Reference/
 
 The `isRegExp()` function determines whether an object is a regular expression.
 
+```js
+__.lang.isRegExp(variable);
+```
+
 #### Parameters
 
 *   `variable` **any** 
@@ -125,6 +164,10 @@ Returns **[boolean](https://developer.mozilla.org/docs/Web/JavaScript/Reference/
 ## isSet
 
 The `isSet()` function determines whether an object is undefined or null.
+
+```js
+__.lang.isSet(variable);
+```
 
 #### Parameters
 
@@ -138,6 +181,10 @@ Returns **[boolean](https://developer.mozilla.org/docs/Web/JavaScript/Reference/
 
 The `isString()` function determines whether an object is a string.
 
+```js
+__.lang.isString(variable);
+```
+
 #### Parameters
 
 *   `variable` **any** 
@@ -149,6 +196,10 @@ Returns **[boolean](https://developer.mozilla.org/docs/Web/JavaScript/Reference/
 ## isUndefined
 
 The `isUndefined()` function determines whether an object is undefined.
+
+```js
+__.lang.isUndefined(variable);
+```
 
 #### Parameters
 
