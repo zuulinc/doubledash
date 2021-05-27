@@ -1,4 +1,5 @@
 import escapeHtml from './escapeHtml';
+import extend from './extend';
 import isArray from './isArray';
 import isBoolean from './isBoolean';
 import isEmpty from './isEmpty';
@@ -14,6 +15,7 @@ import isUndefined from './isUndefined';
 
 export default {
     escapeHtml,
+    extend,
     isArray,
     isBoolean,
     isEmpty,

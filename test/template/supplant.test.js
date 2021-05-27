@@ -1,12 +1,12 @@
-import on from '../../src/event/on ';
+import supplant from '../../src/template/supplant';
 
 test('template variable test', () => {
 
-    
     var template = `Hello {{message}}!`;
     var json = { message: 'World' };
     
     expect(supplant(template, json)).toBe(`Hello World!`);
+
 });
 
 test('template condition test', function() {
@@ -41,7 +41,8 @@ test('template condition test', function() {
 test('template loop test', function() {
 
     var template = `{{for (let i = 0; i < message.length; i++)}}{{message[i]}}{{endfor}}`;
-
     var json = { message: ['one', 'two', 'three'] };
+    
     expect( (supplant(template, json)).trim() ).toBe(`onetwothree`);
+
 });

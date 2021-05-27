@@ -16,6 +16,42 @@ Returns **[string](https://developer.mozilla.org/docs/Web/JavaScript/Reference/G
 <br>
 <br>
 
+## extend
+
+The `extend()` function merges the contents of two or more objects together into the first object.
+
+```js
+__.lang.extend(obj1, obj2);
+```
+
+#### Parameters
+
+*   `obj1` **[object](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object)** 
+*   `obj2` **[object](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object)** 
+
+Returns **[object](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object)**  
+<br>
+<br>
+
+## extend
+
+The `extend()` function merges the contents of two or more objects together into the first object.
+
+```js
+__.lang.extend(deep, obj1, obj2);
+```
+
+#### Parameters
+
+*   `deep` **[boolean](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Boolean)** 
+*   `obj1` **[object](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object)** 
+*   `obj2` **[object](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object)** 
+
+
+Returns **[object](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object)**  
+<br>
+<br>
+
 ## isArray
 
 The `isArray()` function determines whether an object is an array.
