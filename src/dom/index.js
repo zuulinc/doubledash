@@ -9,11 +9,13 @@ import index from './elementIndex';
 import empty from './empty';
 import find from './find';
 import findOne from './findOne';
+import hide from './hide';
 import next from './next';
 import parents from './parents';
 import prepend from './prepend';
 import prev from './prev';
 import remove from './remove';
+import show from './show';
 import siblings from './siblings';
 
 export default {
@@ -28,10 +30,12 @@ export default {
     empty,
     find,
     findOne,
+    hide,
     next,
     parents,
     prepend,
     prev,
     remove,
+    show,
     siblings
 }

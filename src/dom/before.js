@@ -2,8 +2,6 @@
  * 
  * The `before()` function inserts the specified `element` in front of (before) the specified `target`.
  * 
- * Category: dom
- * 
  * ```js
  * __.dom.before(element, target);
  * ```

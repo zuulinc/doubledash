@@ -1,7 +1,6 @@
 import isString from '../lang/isString';
 
 /**
- * Category: dom
  * 
  * @param {Element} element
  * @param {string|Element} child

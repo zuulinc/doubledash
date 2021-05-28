@@ -18,10 +18,10 @@ Returns **[string](https://developer.mozilla.org/docs/Web/JavaScript/Reference/G
 
 ## extend
 
-The `extend()` function merges the contents of two or more objects together into the first object.
+The `extend()` function merges the contents of two or more objects together and returns the new object.
 
 ```js
-__.lang.extend(obj1, obj2);
+__.lang.extend(obj1, obj2, ...);
 ```
 
 #### Parameters
@@ -35,10 +35,10 @@ Returns **[object](https://developer.mozilla.org/docs/Web/JavaScript/Reference/G
 
 ## extend
 
-The `extend()` function merges the contents of two or more objects together into the first object.
+The `extend()` function merges the contents of two or more objects together and returns the new object.
 
 ```js
-__.lang.extend(deep, obj1, obj2);
+__.lang.extend(deep, obj1, obj2, ...);
 ```
 
 #### Parameters

@@ -3,8 +3,6 @@
  * 
  * The `clone()` function makes a copy of the specified `element`, including child nodes, text and attributes.
  * 
- * Category: dom
- * 
  * ```js
  * __.dom.clone(element);
  * ```
