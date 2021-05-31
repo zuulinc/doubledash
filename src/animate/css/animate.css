@@ -1,0 +1,79 @@
+@import 'base.css';
+
+/* Attention  */
+@import 'attention/bounce.css';
+@import 'attention/flash.css';
+@import 'attention/heartBeat.css';
+@import 'attention/jello.css';
+@import 'attention/pulse.css';
+@import 'attention/rubberBand.css';
+@import 'attention/shake.css';
+@import 'attention/swing.css';
+@import 'attention/tada.css';
+@import 'attention/wobble.css';
+
+/* Bouncing  */
+@import 'bouncing/bounceIn.css';
+@import 'bouncing/bounceInDown.css';
+@import 'bouncing/bounceInLeft.css';
+@import 'bouncing/bounceInRight.css';
+@import 'bouncing/bounceInUp.css';
+@import 'bouncing/bounceOut.css';
+@import 'bouncing/bounceOutDown.css';
+@import 'bouncing/bounceOutLeft.css';
+@import 'bouncing/bounceOutRight.css';
+@import 'bouncing/bounceOutUp.css';
+
+/* Fading  */
+@import 'fading/fadeIn.css';
+@import 'fading/fadeInDown.css';
+@import 'fading/fadeInLeft.css';
+@import 'fading/fadeInRight.css';
+@import 'fading/fadeInUp.css';
+@import 'fading/fadeInTopLeft.css';
+@import 'fading/fadeInTopRight.css';
+@import 'fading/fadeInBottomLeft.css';
+@import 'fading/fadeInBottomRight.css';
+@import 'fading/fadeOut.css';
+@import 'fading/fadeOutDown.css';
+@import 'fading/fadeOutLeft.css';
+@import 'fading/fadeOutRight.css';
+@import 'fading/fadeOutUp.css';
+@import 'fading/fadeOutTopLeft.css';
+@import 'fading/fadeOutTopRight.css';
+@import 'fading/fadeOutBottomRight.css';
+@import 'fading/fadeOutBottomLeft.css';
+
+/* Rotating */
+@import 'rotating/rotateIn.css';
+@import 'rotating/rotateInDownLeft.css';
+@import 'rotating/rotateInDownRight.css';
+@import 'rotating/rotateInUpLeft.css';
+@import 'rotating/rotateInUpRight.css';
+@import 'rotating/rotateOut.css';
+@import 'rotating/rotateOutDownLeft.css';
+@import 'rotating/rotateOutDownRight.css';
+@import 'rotating/rotateOutUpLeft.css';
+@import 'rotating/rotateOutUpRight.css';
+
+/* Sliding */
+@import 'sliding/slideInDown.css';
+@import 'sliding/slideInLeft.css';
+@import 'sliding/slideInRight.css';
+@import 'sliding/slideInUp.css';
+@import 'sliding/slideOutDown.css';
+@import 'sliding/slideOutLeft.css';
+@import 'sliding/slideOutRight.css';
+@import 'sliding/slideOutUp.css';
+
+/* Zooming */
+@import 'zooming/zoomIn.css';
+@import 'zooming/zoomInDown.css';
+@import 'zooming/zoomInLeft.css';
+@import 'zooming/zoomInRight.css';
+@import 'zooming/zoomInUp.css';
+@import 'zooming/zoomOut.css';
+@import 'zooming/zoomOutDown.css';
+@import 'zooming/zoomOutLeft.css';
+@import 'zooming/zoomOutRight.css';
+@import 'zooming/zoomOutUp.css';
