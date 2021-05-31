@@ -7,22 +7,20 @@ import animate from './animate';
  * You muse include the animate.css file
  * 
  * ```js
- * __.animate.zoomingOut(element, duration, direction);
+ * __.animate.zoomingOut(element, options);
  * ```
  * 
  * @param {Element} element
- * @param {string} [duration=1s]
- * @param {string} [direction=''] up|down|left|right
+ * @param {object} [options={}] { direction: up|down|left|right, duration: 1s, delay: 0, repeat: 1 }
  */
- function zoomingOut(element, duration = '1s', direction = '') {
-    
-    direction = direction.charAt(0).toUpperCase() + direction.slice(1);
-    
-    let animation = 'zoomingOut' + direction;
-    return animate(element, animation, {
-        duration: duration
-    });
+ function zoomingOut(element, options) {
+    options = options ? options : {};
 
+    let animation = 'zoomingOut';
+    if (options.direction)
+        animation = animation + options.direction.charAt(0).toUpperCase() + options.direction.slice(1);
+
+    return animate(element, animation, options);
 }
     
 export default zoomingOut;

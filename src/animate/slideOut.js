@@ -7,22 +7,22 @@ import animate from './animate';
  * You muse include the animate.css file
  * 
  * ```js
- * __.animate.slideOut(element, duration, direction);
+ * __.animate.slideOut(element, options);
  * ```
  * 
  * @param {Element} element
- * @param {string} [duration=1s]
- * @param {string} [direction='down'] up|down|left|right
+ * @param {object} [options={}] { direction: up|down|left|right, duration: 1s, delay: 0, repeat: 1 }
  */
- function slideOut(element, duration = '1s', direction = 'down') {
-    
-    direction = direction.charAt(0).toUpperCase() + direction.slice(1);
-    
-    let animation = 'slideOut' + direction;
-    return animate(element, animation, {
-        duration: duration
-    });
+ function slideOut(element, options) {
+    options = options ? options : {};
 
+    let animation = 'slideOut';
+    if (options.direction)
+        animation = animation + options.direction.charAt(0).toUpperCase() + options.direction.slice(1);
+    else
+        animation = animation + 'Down'
+
+    return animate(element, animation, options);
 }
     
 export default slideOut;

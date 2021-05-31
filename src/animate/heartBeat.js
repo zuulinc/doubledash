@@ -7,18 +7,16 @@ import animate from './animate';
  * You muse include the animate.css file
  * 
  * ```js
- * __.animate.heartBeat(element, duration);
+ * __.animate.heartBeat(element, options);
  * ```
  * 
  * @param {Element} element
- * @param {string} duration
+ * @param {object} [options={}] { duration: 1s, delay: 0, repeat: 1 }
  */
-function heartBeat(element, duration = '1s') {
-    
-    return animate(element, 'heartBeat', {
-        duration: duration
-    });
+function heartBeat(element, options) {
+    options = options ? options : {};
 
+    return animate(element, 'heartBeat', options);
 }
     
 export default heartBeat;

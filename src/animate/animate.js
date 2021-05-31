@@ -1,9 +1,21 @@
-import extend from '../lang/extend';
+
 
 let animations = {
-    show: ['fadeIn', 'bounceIn'],
-    hide: ['fadeOut', 'bounceOut'],
-    attention: ['bounce', 'shake']
+    show: [
+        'bounceIn', 'bounceInUp', 'bounceInDown', 'bounceInLeft', 'bounceInRight',
+        'fadeIn', 'fadeInUp', 'fadeInDown', 'fadeInLeft', 'fadeInRight', 'fadeInTopLeft', 'fadeInTopRight', 'fadeInBottomLeft', 'fadeInBottomRight', 
+        'rotateIn', 'rotateInDownLeft', 'rotateInDownRight', 'rotateInUpLeft', 'rotateInUpLeft',
+        'slideInUp', 'slideInDown', 'slideInLeft', 'slideInRight',
+        'zoomingIn', 'zoomingInUp', 'zoomingInDown', 'zoomingInLeft', 'zoomingInRight'
+    ],
+    hide: [
+        'bounceOut', 'bounceOutUp', 'bounceOutDown', 'bounceOutLeft', 'bounceOutRight',
+        'fadeOut', 'fadeOutUp', 'fadeOutDown', 'fadeOutLeft', 'fadeOutRight', 'fadeOutTopLeft', 'fadeOutTopRight', 'fadeOutBottomLeft', 'fadeOutBottomRight', 
+        'rotateOut', 'rotateOutDownLeft', 'rotateOutDownRight', 'rotateOutUpLeft', 'rotateOutUpLeft',
+        'slideOutUp', 'slideOutDown', 'slideOutLeft', 'slideOutRight',
+        'zoomingOut', 'zoomingOutUp', 'zoomingOutDown', 'zoomingOutLeft', 'zoomingOutRight'
+    ],
+    attention: ['bounce', 'flash', 'heartBeat', 'jello', 'pulse', 'rubberBand', 'shake', 'swing', 'tada', 'wobble']
 };
 
 /**
@@ -21,10 +33,6 @@ let animations = {
  * @param {object} options
  */
 function animate(element, animation, options) {
-
-    options = extend({
-        duration: '1s'
-    }, options);
 
     let isShowing = animations.show.includes(animation) || false;
     let attention = animations.attention.includes(animation);
@@ -53,7 +61,17 @@ function animate(element, animation, options) {
             resolve('Animation ended');
         }
 
-        element.style.setProperty('--animate-duration', options.duration);
+        if (options.duration) {
+            element.style.setProperty('--animate-duration', options.duration);
+        }
+
+        if (options.delay) {
+            element.style.setProperty('--animate-delay', options.delay);
+        }
+
+        if (options.repeat) {
+            element.style.setProperty('--animate-repeat', options.repeat);
+        }
 
         element.addEventListener('animationend', handleAnimationEnd, { once: true });
 

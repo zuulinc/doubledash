@@ -7,18 +7,16 @@ import animate from './animate';
  * You muse include the animate.css file
  * 
  * ```js
- * __.animate.flash(element, duration);
+ * __.animate.flash(element, options);
  * ```
  * 
  * @param {Element} element
- * @param {string} duration
+ * @param {object} [options={}] { duration: 1s, delay: 0, repeat: 1 }
  */
-function flash(element, duration = '1s') {
-    
-    return animate(element, 'flash', {
-        duration: duration
-    });
+function flash(element, options) {
+    options = options ? options : {};
 
+    return animate(element, 'flash', options);
 }
     
 export default flash;

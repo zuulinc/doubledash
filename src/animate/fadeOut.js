@@ -7,22 +7,20 @@ import animate from './animate';
  * You muse include the animate.css file
  * 
  * ```js
- * __.animate.fadeOut(element, duration, direction);
+ * __.animate.fadeOut(element, options);
  * ```
  * 
  * @param {Element} element
- * @param {string} [duration=1s]
- * @param {string} [direction=''] down|left|right|up|bottomLeft|bottomRight|topLeft|topLeft
+ * @param {object} [options={}] { direction: down|left|right|up|bottomLeft|bottomRight|topLeft|topLeft, duration: 1s, delay: 0, repeat: 1 }
  */
- function fadeOut(element, duration = '1s', direction = '') {
-    
-    direction = direction.charAt(0).toUpperCase() + direction.slice(1);
-    
-    let animation = 'fadeOut' + direction;
-    return animate(element, animation, {
-        duration: duration
-    });
+ function fadeOut(element, options) {
+    options = options ? options : {};
 
+    let animation = 'fadeOut';
+    if (options.direction)
+        animation = animation + options.direction.charAt(0).toUpperCase() + options.direction.slice(1);
+
+    return animate(element, animation, options);
 }
     
 export default fadeOut;

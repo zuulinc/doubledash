@@ -8,6 +8,9 @@
     "test": "test"
   },
   "scripts": {
+    "css": "npm-run-all css-compile css-compress",
+    "css-compile": "sass src/animate/css/animate.scss build/animate.css",
+    "css-compress": "sass build/animate.css build/animate.min.css --style compressed",
     "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
     "docs": "documentation --markdown-toc=false build src/event/index.js -f md > doc.md"
   },
@@ -23,7 +26,9 @@
   "license": "ISC",
   "devDependencies": {
     "documentation": "^13.2.5",
-    "jest": "^26.6.3"
+    "jest": "^26.6.3",
+    "npm-run-all": "^4.1.5",
+    "sass": "^1.34.0"
   },
   "dependencies": {}
 }

@@ -7,18 +7,16 @@ import animate from './animate';
  * You muse include the animate.css file
  * 
  * ```js
- * __.animate.shake(element, duration, direction);
+ * __.animate.shake(element, options);
  * ```
  * 
  * @param {Element} element
- * @param {string} duration
+ * @param {object} [options={}] { duration: 1s, delay: 0, repeat: 1 }
  */
-function shake(element, duration = '1s') {
-    
-    return animate(element, 'shake', {
-        duration: duration
-    });
+function shake(element, options) {
+    options = options ? options : {};
 
+    return animate(element, 'shake', options);
 }
     
 export default shake;

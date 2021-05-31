@@ -7,18 +7,16 @@ import animate from './animate';
  * You muse include the animate.css file
  * 
  * ```js
- * __.animate.rubberBand(element, duration);
+ * __.animate.rubberBand(element, options);
  * ```
  * 
  * @param {Element} element
- * @param {string} duration
+ * @param {object} [options={}] { duration: 1s, delay: 0, repeat: 1 }
  */
-function rubberBand(element, duration = '1s') {
-    
-    return animate(element, 'rubberBand', {
-        duration: duration
-    });
+function rubberBand(element, options) {
+    options = options ? options : {};
 
+    return animate(element, 'rubberBand', options);
 }
     
 export default rubberBand;

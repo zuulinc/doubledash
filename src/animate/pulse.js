@@ -7,18 +7,16 @@ import animate from './animate';
  * You muse include the animate.css file
  * 
  * ```js
- * __.animate.pulse(element, duration);
+ * __.animate.pulse(element, options);
  * ```
  * 
  * @param {Element} element
- * @param {string} duration
+ * @param {object} [options={}] { duration: 1s, delay: 0, repeat: 1 }
  */
-function pulse(element, duration = '1s') {
-    
-    return animate(element, 'pulse', {
-        duration: duration
-    });
+function pulse(element, options) {
+    options = options ? options : {};
 
+    return animate(element, 'pulse', options);
 }
     
 export default pulse;

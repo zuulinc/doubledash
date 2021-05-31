@@ -7,18 +7,16 @@ import animate from './animate';
  * You muse include the animate.css file
  * 
  * ```js
- * __.animate.swing(element, duration);
+ * __.animate.swing(element, options);
  * ```
  * 
  * @param {Element} element
- * @param {string} duration
+ * @param {object} [options={}] { duration: 1s, delay: 0, repeat: 1 }
  */
-function swing(element, duration = '1s') {
-    
-    return animate(element, 'swing', {
-        duration: duration
-    });
+function swing(element, options) {
+    options = options ? options : {};
 
+    return animate(element, 'swing', options);
 }
     
 export default swing;

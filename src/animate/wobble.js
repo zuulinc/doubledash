@@ -7,18 +7,16 @@ import animate from './animate';
  * You muse include the animate.css file
  * 
  * ```js
- * __.animate.wobble(element, duration);
+ * __.animate.wobble(element, options);
  * ```
  * 
  * @param {Element} element
- * @param {string} duration
+ * @param {object} [options={}] { duration: 1s, delay: 0, repeat: 1 }
  */
-function wobble(element, duration = '1s') {
-    
-    return animate(element, 'wobble', {
-        duration: duration
-    });
+function wobble(element, options) {
+    options = options ? options : {};
 
+    return animate(element, 'wobble', options);
 }
     
 export default wobble;

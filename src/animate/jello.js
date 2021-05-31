@@ -7,18 +7,16 @@ import animate from './animate';
  * You muse include the animate.css file
  * 
  * ```js
- * __.animate.jello(element, duration);
+ * __.animate.jello(element, options);
  * ```
  * 
  * @param {Element} element
- * @param {string} duration
+ * @param {object} [options={}] { duration: 1s, delay: 0, repeat: 1 }
  */
-function jello(element, duration = '1s') {
-    
-    return animate(element, 'jello', {
-        duration: duration
-    });
+function jello(element, options) {
+    options = options ? options : {};
 
+    return animate(element, 'jello', options);
 }
     
 export default jello;

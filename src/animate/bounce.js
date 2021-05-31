@@ -7,18 +7,16 @@ import animate from './animate';
  * You muse include the animate.css file
  * 
  * ```js
- * __.animate.bounce(element, duration);
+ * __.animate.bounce(element, options);
  * ```
  * 
  * @param {Element} element
- * @param {string} duration
+ * @param {object} options
  */
-function bounce(element, duration = '1s') {
+function bounce(element, options) {
+    options = options ? options : {};
     
-    return animate(element, 'bounce', {
-        duration: duration
-    });
-
+    return animate(element, 'bounce', options);
 }
     
 export default bounce;

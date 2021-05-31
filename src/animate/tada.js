@@ -7,18 +7,16 @@ import animate from './animate';
  * You muse include the animate.css file
  * 
  * ```js
- * __.animate.tada(element, duration);
+ * __.animate.tada(element, options);
  * ```
  * 
  * @param {Element} element
- * @param {string} duration
+ * @param {object} [options={}] { duration: 1s, delay: 0, repeat: 1 }
  */
-function tada(element, duration = '1s') {
-    
-    return animate(element, 'tada', {
-        duration: duration
-    });
+function tada(element, options) {
+    options = options ? options : {};
 
+    return animate(element, 'tada', options);
 }
     
 export default tada;

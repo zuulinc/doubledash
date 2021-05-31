@@ -7,22 +7,20 @@ import animate from './animate';
  * You muse include the animate.css file
  * 
  * ```js
- * __.animate.bounceOut(element, duration, direction);
+ * __.animate.bounceOut(element, options);
  * ```
  * 
  * @param {Element} element
- * @param {string} [duration=1s]
- * @param {string} [direction=''] down|left|right|up
+ * @param {object} [options={}] { direction: down|left|right|up, duration: 1s, delay: 0, repeat: 1 }
  */
-function bounceOut(element, duration = '1s', direction = '') {
-    
-    direction = direction.charAt(0).toUpperCase() + direction.slice(1);
-    
-    let animation = 'bounceOut' + direction;
-    return animate(element, animation, {
-        duration: duration
-    });
+function bounceOut(element, options) {
+    options = options ? options : {};
 
+    let animation = 'bounceOut';
+    if (options.direction)
+        animation = animation + options.direction.charAt(0).toUpperCase() + options.direction.slice(1);
+
+    return animate(element, animation, options);
 }
     
 export default bounceOut;
