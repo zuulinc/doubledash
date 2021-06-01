@@ -6,6 +6,10 @@ Double Dash is simple utility library meant to help transition people off of jQu
 
 `npm install doubledash`
 
+## Usage
+
+`import __ from 'doubledash';`
+
 ## Categories
 
 We orginiaze our functions into categories:
@@ -14,10 +18,7 @@ We orginiaze our functions into categories:
 *   dom
 *   event
 *   template
-
-## Usage
-
-`import __ from 'doubledash';`
+*   animate
 
 ## Namespace structure
 

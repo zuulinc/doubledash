@@ -364,5 +364,5 @@ __.animate.zoomingOut(element, options);
 
 [3]: https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object
 
-[4]: https://github.com/zuulinc/doubledash/blob/main/dist/animate.min.css
+[4]: https://github.com/zuulinc/doubledash/blob/main/dist/doubledash-animate.min.css
 
