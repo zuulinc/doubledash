@@ -2,9 +2,9 @@ import animate from './animate';
 
 /**
  * 
- * The `bounceOut()` function fades the specified `element` in.
+ * The `bounceOut()` function bounces out the specified `element`. This function hides visible elements as a result.
  * 
- * You muse include the animate.css file
+ * The animate.css file is requred for this function to work
  * 
  * ```js
  * __.animate.bounceOut(element, options);

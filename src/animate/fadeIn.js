@@ -2,9 +2,9 @@ import animate from './animate';
 
 /**
  * 
- * The `fadeIn()` function fades the specified `element` in.
+ * The `fadeIn()` function fades in the specified `element`. This function shows hidden elements as a result.
  * 
- * You muse include the animate.css file
+ * The animate.css file is requred for this function to work
  * 
  * ```js
  * __.animate.fadeIn(element, options);

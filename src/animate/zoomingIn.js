@@ -2,9 +2,9 @@ import animate from './animate';
 
 /**
  * 
- * The `zoomingIn()` function fades the specified `element` in.
+ * The `zoomingIn()` function zooms in the specified `element`. This function shows hidden elements as a result.
  * 
- * You muse include the animate.css file
+ * The animate.css file is requred for this function to work
  * 
  * ```js
  * __.animate.zoomingIn(element, options);

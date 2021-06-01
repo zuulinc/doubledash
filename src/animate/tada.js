@@ -2,9 +2,9 @@ import animate from './animate';
 
 /**
  * 
- * The `tada()` function fades the specified `element` in.
+ * The `tada()` function gives a magic like effect of the specified `element` for attention.
  * 
- * You muse include the animate.css file
+ * The animate.css file is requred for this function to work
  * 
  * ```js
  * __.animate.tada(element, options);

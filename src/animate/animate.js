@@ -20,9 +20,9 @@ let animations = {
 
 /**
  * 
- * The `animate()` function fades the specified `element` in.
+ * The `animate()` function triggers a predefined animation on the specified `element`.
  * 
- * You muse include the animate.css file
+ * The animate.css file is requred for this function to work
  * 
  * ```js
  * __.animate.animate(element, animation, options);
@@ -30,7 +30,7 @@ let animations = {
  * 
  * @param {Element} element
  * @param {string} animation
- * @param {object} options
+ * @param {object} [options={}] { duration: 1s, delay: 0, repeat: 1 }
  */
 function animate(element, animation, options) {
 

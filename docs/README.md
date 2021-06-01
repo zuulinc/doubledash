@@ -5,3 +5,4 @@ Select a category:
 *  [Dom](dom.md)
 *  [Event](event.md)
 *  [Template](template.md)
+*  [Animate](animate.md)

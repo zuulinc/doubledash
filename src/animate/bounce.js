@@ -2,16 +2,16 @@ import animate from './animate';
 
 /**
  * 
- * The `bounce()` function fades the specified `element` in.
+ * The `bounce()` function bounces the specified `element` for attention.
  * 
- * You muse include the animate.css file
+ * The animate.css file is requred for this function to work
  * 
  * ```js
  * __.animate.bounce(element, options);
  * ```
  * 
  * @param {Element} element
- * @param {object} options
+ * @param {object} [options={}] { duration: 1s, delay: 0, repeat: 1 }
  */
 function bounce(element, options) {
     options = options ? options : {};

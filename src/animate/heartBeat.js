@@ -2,9 +2,9 @@ import animate from './animate';
 
 /**
  * 
- * The `heartBeat()` function fades the specified `element` in.
+ * The `heartBeat()` function pulses like a heartBeat the specified `element` for attention.
  * 
- * You muse include the animate.css file
+ * The animate.css file is requred for this function to work
  * 
  * ```js
  * __.animate.heartBeat(element, options);

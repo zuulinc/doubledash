@@ -2,9 +2,9 @@ import animate from './animate';
 
 /**
  * 
- * The `wobble()` function fades the specified `element` in.
+ * The `wobble()` function wobbles the specified `element` for attention.
  * 
- * You muse include the animate.css file
+ * The animate.css file is requred for this function to work
  * 
  * ```js
  * __.animate.wobble(element, options);

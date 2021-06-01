@@ -2,9 +2,9 @@ import animate from './animate';
 
 /**
  * 
- * The `slideIn()` function fades the specified `element` in.
+ * The `slideIn()` function slides in the specified `element`. This function shows hidden elements as a result.
  * 
- * You muse include the animate.css file
+ * The animate.css file is requred for this function to work
  * 
  * ```js
  * __.animate.slideIn(element, options);

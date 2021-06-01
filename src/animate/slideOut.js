@@ -2,9 +2,9 @@ import animate from './animate';
 
 /**
  * 
- * The `slideOut()` function fades the specified `element` in.
+ * The `slideOut()` function slides out the specified `element`. This function hides visible elements as a result.
  * 
- * You muse include the animate.css file
+ * The animate.css file is requred for this function to work
  * 
  * ```js
  * __.animate.slideOut(element, options);
