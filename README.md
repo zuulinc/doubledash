@@ -24,7 +24,7 @@ We orginiaze our functions into categories:
 
 The name space is broken down by the library, category and function name.
 
-```js
+```
 {library}.{category}.{function}
 ```
 
