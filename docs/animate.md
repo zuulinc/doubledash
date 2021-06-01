@@ -1,6 +1,8 @@
 # Animate Functions
 
 :warning: **The animate.css file is requred for all animation functions to work**: Please find the animation file here!
+<br>
+<br>
 
 ## End Animation Event
 
@@ -27,7 +29,7 @@ __.animate.bounce(element, options);
 #### Parameters
 
 *   `element` **[Element][1]** 
-*   `options` **[object][3]** { duration: 1s, delay: 0, repeat: 1 } (optional, default `{}`)
+*   `options` **[object][3]** (optional, default `{ duration: 1s, delay: 0, repeat: 1 }`)
 <br>
 <br>
 
@@ -44,7 +46,7 @@ __.animate.bounceIn(element, options);
 #### Parameters
 
 *   `element` **[Element][1]** 
-*   `options` **[object][3]** { direction: down|left|right|up, duration: 1s, delay: 0, repeat: 1 } (optional, default `{}`)
+*   `options` **[object][3]** (optional, default `{ direction: down|left|right|up, duration: 1s, delay: 0, repeat: 1 }`)
 <br>
 <br>
 
@@ -61,7 +63,7 @@ __.animate.bounceOut(element, options);
 #### Parameters
 
 *   `element` **[Element][1]** 
-*   `options` **[object][3]** { direction: down|left|right|up, duration: 1s, delay: 0, repeat: 1 } (optional, default `{}`)
+*   `options` **[object][3]** (optional, default `{ direction: down|left|right|up, duration: 1s, delay: 0, repeat: 1 }`)
 <br>
 <br>
 
@@ -78,7 +80,7 @@ __.animate.fadeIn(element, options);
 #### Parameters
 
 *   `element` **[Element][1]** 
-*   `options` **[object][3]** { direction: down|left|right|up|bottomLeft|bottomRight|topLeft|topLeft, duration: 1s, delay: 0, repeat: 1 } (optional, default `{}`)
+*   `options` **[object][3]** (optional, default `{ direction: down|left|right|up|bottomLeft|bottomRight|topLeft|topLeft, duration: 1s, delay: 0, repeat: 1 }`)
 <br>
 <br>
 
@@ -95,7 +97,7 @@ __.animate.fadeOut(element, options);
 #### Parameters
 
 *   `element` **[Element][1]** 
-*   `options` **[object][3]** { direction: down|left|right|up|bottomLeft|bottomRight|topLeft|topLeft, duration: 1s, delay: 0, repeat: 1 } (optional, default `{}`)
+*   `options` **[object][3]** (optional, default `{ direction: down|left|right|up|bottomLeft|bottomRight|topLeft|topLeft, duration: 1s, delay: 0, repeat: 1 }`)
 <br>
 <br>
 
@@ -112,7 +114,7 @@ __.animate.flash(element, options);
 #### Parameters
 
 *   `element` **[Element][1]** 
-*   `options` **[object][3]** { duration: 1s, delay: 0, repeat: 1 } (optional, default `{}`)
+*   `options` **[object][3]** (optional, default `{ duration: 1s, delay: 0, repeat: 1 }`)
 <br>
 <br>
 
@@ -129,7 +131,7 @@ __.animate.heartBeat(element, options);
 #### Parameters
 
 *   `element` **[Element][1]** 
-*   `options` **[object][3]** { duration: 1s, delay: 0, repeat: 1 } (optional, default `{}`)
+*   `options` **[object][3]** (optional, default `{ duration: 1s, delay: 0, repeat: 1 }`)
 <br>
 <br>
 
@@ -146,7 +148,7 @@ __.animate.jello(element, options);
 #### Parameters
 
 *   `element` **[Element][1]** 
-*   `options` **[object][3]** { duration: 1s, delay: 0, repeat: 1 } (optional, default `{}`)
+*   `options` **[object][3]** (optional, default `{ duration: 1s, delay: 0, repeat: 1 }`)
 <br>
 <br>
 
@@ -163,7 +165,7 @@ __.animate.pulse(element, options);
 #### Parameters
 
 *   `element` **[Element][1]** 
-*   `options` **[object][3]** { duration: 1s, delay: 0, repeat: 1 } (optional, default `{}`)
+*   `options` **[object][3]** (optional, default `{ duration: 1s, delay: 0, repeat: 1 }`)
 <br>
 <br>
 
@@ -180,7 +182,7 @@ __.animate.rotateIn(element, options);
 #### Parameters
 
 *   `element` **[Element][1]** 
-*   `options` **[object][3]** { direction: downLeft|downRight|upLeft|upLeft, duration: 1s, delay: 0, repeat: 1 } (optional, default `{}`)
+*   `options` **[object][3]** (optional, default `{ direction: downLeft|downRight|upLeft|upLeft, duration: 1s, delay: 0, repeat: 1 }`)
 <br>
 <br>
 
@@ -197,7 +199,7 @@ __.animate.rotateOut(element, options);
 #### Parameters
 
 *   `element` **[Element][1]** 
-*   `options` **[object][3]** { direction: downLeft|downRight|upLeft|upLeft, duration: 1s, delay: 0, repeat: 1 } (optional, default `{}`)
+*   `options` **[object][3]** (optional, default `{ direction: downLeft|downRight|upLeft|upLeft, duration: 1s, delay: 0, repeat: 1 }`)
 <br>
 <br>
 
@@ -214,7 +216,7 @@ __.animate.rubberBand(element, options);
 #### Parameters
 
 *   `element` **[Element][1]** 
-*   `options` **[object][3]** { duration: 1s, delay: 0, repeat: 1 } (optional, default `{}`)
+*   `options` **[object][3]** (optional, default `{ duration: 1s, delay: 0, repeat: 1 }`)
 <br>
 <br>
 
@@ -231,7 +233,7 @@ __.animate.shake(element, options);
 #### Parameters
 
 *   `element` **[Element][1]** 
-*   `options` **[object][3]** { duration: 1s, delay: 0, repeat: 1 } (optional, default `{}`)
+*   `options` **[object][3]** (optional, default `{ duration: 1s, delay: 0, repeat: 1 }`)
 <br>
 <br>
 
@@ -248,7 +250,7 @@ __.animate.slideIn(element, options);
 #### Parameters
 
 *   `element` **[Element][1]** 
-*   `options` **[object][3]** { direction: up|down|left|right, duration: 1s, delay: 0, repeat: 1 } (optional, default `{}`)
+*   `options` **[object][3]** (optional, default `{ direction: up|down|left|right, duration: 1s, delay: 0, repeat: 1 } `)
 <br>
 <br>
 
@@ -265,7 +267,7 @@ __.animate.slideOut(element, options);
 #### Parameters
 
 *   `element` **[Element][1]** 
-*   `options` **[object][3]** { direction: up|down|left|right, duration: 1s, delay: 0, repeat: 1 } (optional, default `{}`)
+*   `options` **[object][3]** (optional, default `{ direction: up|down|left|right, duration: 1s, delay: 0, repeat: 1 }`)
 <br>
 <br>
 
@@ -282,7 +284,7 @@ __.animate.swing(element, options);
 #### Parameters
 
 *   `element` **[Element][1]** 
-*   `options` **[object][3]** { duration: 1s, delay: 0, repeat: 1 } (optional, default `{}`)
+*   `options` **[object][3]** (optional, default `{ duration: 1s, delay: 0, repeat: 1 }`)
 <br>
 <br>
 
@@ -299,7 +301,7 @@ __.animate.tada(element, options);
 #### Parameters
 
 *   `element` **[Element][1]** 
-*   `options` **[object][3]** { duration: 1s, delay: 0, repeat: 1 } (optional, default `{}`)
+*   `options` **[object][3]** (optional, default `{ duration: 1s, delay: 0, repeat: 1 }`)
 <br>
 <br>
 
@@ -316,7 +318,7 @@ __.animate.wobble(element, options);
 #### Parameters
 
 *   `element` **[Element][1]** 
-*   `options` **[object][3]** { duration: 1s, delay: 0, repeat: 1 } (optional, default `{}`)
+*   `options` **[object][3]** (optional, default `{ duration: 1s, delay: 0, repeat: 1 }`)
 <br>
 <br>
 
@@ -333,7 +335,7 @@ __.animate.zoomingIn(element, options);
 #### Parameters
 
 *   `element` **[Element][1]** 
-*   `options` **[object][3]** { direction: up|down|left|right, duration: 1s, delay: 0, repeat: 1 } (optional, default `{}`)
+*   `options` **[object][3]** (optional, default `{ direction: up|down|left|right, duration: 1s, delay: 0, repeat: 1 }`)
 <br>
 <br>
 
@@ -350,7 +352,7 @@ __.animate.zoomingOut(element, options);
 #### Parameters
 
 *   `element` **[Element][1]** 
-*   `options` **[object][3]** { direction: up|down|left|right, duration: 1s, delay: 0, repeat: 1 } (optional, default `{}`)
+*   `options` **[object][3]** (optional, default `{ direction: up|down|left|right, duration: 1s, delay: 0, repeat: 1 }`)
 <br>
 <br>
 

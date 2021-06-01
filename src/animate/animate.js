@@ -30,7 +30,7 @@ let animations = {
  * 
  * @param {Element} element
  * @param {string} animation
- * @param {object} [options={}] { duration: 1s, delay: 0, repeat: 1 }
+ * @param {object} [options={ duration: 1s, delay: 0, repeat: 1 }] 
  */
 function animate(element, animation, options) {
 

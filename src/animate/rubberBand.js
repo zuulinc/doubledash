@@ -11,7 +11,7 @@ import animate from './animate';
  * ```
  * 
  * @param {Element} element
- * @param {object} [options={}] { duration: 1s, delay: 0, repeat: 1 }
+ * @param {object} [options={ duration: 1s, delay: 0, repeat: 1 }] 
  */
 function rubberBand(element, options) {
     options = options ? options : {};
