@@ -1,6 +1,6 @@
-# Animate Functions
+# Animations
 
-:warning: **The animate.css file is requred for all animation functions to work**: Please find the animation file here!
+:warning:  **The animate.css file is requred for all Animate functions to work**: Please find the animation file [here][4]!
 <br>
 <br>
 
@@ -15,6 +15,8 @@ All animation functions return a Promise, the Promise is resolved when the anima
 ```
 <br>
 <br>
+
+# Animate Functions
 
 ## bounce
 
@@ -361,4 +363,6 @@ __.animate.zoomingOut(element, options);
 [2]: https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String
 
 [3]: https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object
+
+[4]: https://github.com/zuulinc/doubledash/blob/main/dist/animate.min.css
 
