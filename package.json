@@ -10,7 +10,7 @@
     "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
     "docs": "documentation build --markdown-toc=false dist src/animate/index.js -f md > doc.md",
     "css": "npm-run-all css-compile css-compress",
-    "css-compile": "sass src/animate/css/animate.scss dist/doubledash-animate.css",
+    "css-compile": "sass src/css/animate.scss dist/doubledash-animate.css",
     "css-compress": "sass dist/doubledash-animate.css dist/doubledash-animate.min.css --style compressed",
     "js": "webpack"
   },
