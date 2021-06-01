@@ -32,6 +32,8 @@ __.animate.bounce(element, options);
 
 *   `element` **[Element][1]** 
 *   `options` **[object][3]** (optional, default `{ duration: 1s, delay: 0, repeat: 1 }`)
+
+Returns **[Promise][5]**
 <br>
 <br>
 
@@ -49,6 +51,8 @@ __.animate.bounceIn(element, options);
 
 *   `element` **[Element][1]** 
 *   `options` **[object][3]** (optional, default `{ direction: down|left|right|up, duration: 1s, delay: 0, repeat: 1 }`)
+
+Returns **[Promise][5]**
 <br>
 <br>
 
@@ -66,6 +70,8 @@ __.animate.bounceOut(element, options);
 
 *   `element` **[Element][1]** 
 *   `options` **[object][3]** (optional, default `{ direction: down|left|right|up, duration: 1s, delay: 0, repeat: 1 }`)
+
+Returns **[Promise][5]**
 <br>
 <br>
 
@@ -83,6 +89,8 @@ __.animate.fadeIn(element, options);
 
 *   `element` **[Element][1]** 
 *   `options` **[object][3]** (optional, default `{ direction: down|left|right|up|bottomLeft|bottomRight|topLeft|topLeft, duration: 1s, delay: 0, repeat: 1 }`)
+
+Returns **[Promise][5]**
 <br>
 <br>
 
@@ -100,6 +108,8 @@ __.animate.fadeOut(element, options);
 
 *   `element` **[Element][1]** 
 *   `options` **[object][3]** (optional, default `{ direction: down|left|right|up|bottomLeft|bottomRight|topLeft|topLeft, duration: 1s, delay: 0, repeat: 1 }`)
+
+Returns **[Promise][5]**
 <br>
 <br>
 
@@ -117,6 +127,8 @@ __.animate.flash(element, options);
 
 *   `element` **[Element][1]** 
 *   `options` **[object][3]** (optional, default `{ duration: 1s, delay: 0, repeat: 1 }`)
+
+Returns **[Promise][5]**
 <br>
 <br>
 
@@ -134,6 +146,8 @@ __.animate.heartBeat(element, options);
 
 *   `element` **[Element][1]** 
 *   `options` **[object][3]** (optional, default `{ duration: 1s, delay: 0, repeat: 1 }`)
+
+Returns **[Promise][5]**
 <br>
 <br>
 
@@ -151,6 +165,8 @@ __.animate.jello(element, options);
 
 *   `element` **[Element][1]** 
 *   `options` **[object][3]** (optional, default `{ duration: 1s, delay: 0, repeat: 1 }`)
+
+Returns **[Promise][5]**
 <br>
 <br>
 
@@ -168,6 +184,8 @@ __.animate.pulse(element, options);
 
 *   `element` **[Element][1]** 
 *   `options` **[object][3]** (optional, default `{ duration: 1s, delay: 0, repeat: 1 }`)
+
+Returns **[Promise][5]**
 <br>
 <br>
 
@@ -185,6 +203,8 @@ __.animate.rotateIn(element, options);
 
 *   `element` **[Element][1]** 
 *   `options` **[object][3]** (optional, default `{ direction: downLeft|downRight|upLeft|upLeft, duration: 1s, delay: 0, repeat: 1 }`)
+
+Returns **[Promise][5]**
 <br>
 <br>
 
@@ -202,6 +222,8 @@ __.animate.rotateOut(element, options);
 
 *   `element` **[Element][1]** 
 *   `options` **[object][3]** (optional, default `{ direction: downLeft|downRight|upLeft|upLeft, duration: 1s, delay: 0, repeat: 1 }`)
+
+Returns **[Promise][5]**
 <br>
 <br>
 
@@ -219,6 +241,8 @@ __.animate.rubberBand(element, options);
 
 *   `element` **[Element][1]** 
 *   `options` **[object][3]** (optional, default `{ duration: 1s, delay: 0, repeat: 1 }`)
+
+Returns **[Promise][5]**
 <br>
 <br>
 
@@ -236,6 +260,8 @@ __.animate.shake(element, options);
 
 *   `element` **[Element][1]** 
 *   `options` **[object][3]** (optional, default `{ duration: 1s, delay: 0, repeat: 1 }`)
+
+Returns **[Promise][5]**
 <br>
 <br>
 
@@ -253,6 +279,8 @@ __.animate.slideIn(element, options);
 
 *   `element` **[Element][1]** 
 *   `options` **[object][3]** (optional, default `{ direction: up|down|left|right, duration: 1s, delay: 0, repeat: 1 } `)
+
+Returns **[Promise][5]**
 <br>
 <br>
 
@@ -270,6 +298,8 @@ __.animate.slideOut(element, options);
 
 *   `element` **[Element][1]** 
 *   `options` **[object][3]** (optional, default `{ direction: up|down|left|right, duration: 1s, delay: 0, repeat: 1 }`)
+
+Returns **[Promise][5]**
 <br>
 <br>
 
@@ -287,6 +317,8 @@ __.animate.swing(element, options);
 
 *   `element` **[Element][1]** 
 *   `options` **[object][3]** (optional, default `{ duration: 1s, delay: 0, repeat: 1 }`)
+
+Returns **[Promise][5]**
 <br>
 <br>
 
@@ -304,6 +336,8 @@ __.animate.tada(element, options);
 
 *   `element` **[Element][1]** 
 *   `options` **[object][3]** (optional, default `{ duration: 1s, delay: 0, repeat: 1 }`)
+
+Returns **[Promise][5]**
 <br>
 <br>
 
@@ -321,6 +355,8 @@ __.animate.wobble(element, options);
 
 *   `element` **[Element][1]** 
 *   `options` **[object][3]** (optional, default `{ duration: 1s, delay: 0, repeat: 1 }`)
+
+Returns **[Promise][5]**
 <br>
 <br>
 
@@ -338,6 +374,8 @@ __.animate.zoomingIn(element, options);
 
 *   `element` **[Element][1]** 
 *   `options` **[object][3]** (optional, default `{ direction: up|down|left|right, duration: 1s, delay: 0, repeat: 1 }`)
+
+Returns **[Promise][5]**
 <br>
 <br>
 
@@ -355,6 +393,8 @@ __.animate.zoomingOut(element, options);
 
 *   `element` **[Element][1]** 
 *   `options` **[object][3]** (optional, default `{ direction: up|down|left|right, duration: 1s, delay: 0, repeat: 1 }`)
+
+Returns **[Promise][5]**
 <br>
 <br>
 
@@ -366,3 +406,4 @@ __.animate.zoomingOut(element, options);
 
 [4]: https://github.com/zuulinc/doubledash/blob/main/dist/doubledash-animate.min.css
 
+[5]: https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise

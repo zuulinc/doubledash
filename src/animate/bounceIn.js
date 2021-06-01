@@ -12,6 +12,7 @@ import animate from './animate';
  * 
  * @param {Element} element
  * @param {object} [options={ direction: down|left|right|up, duration: 1s, delay: 0, repeat: 1 }]
+ * @returns {Promise}
  */
 function bounceIn(element, options) {
     options = options ? options : {};

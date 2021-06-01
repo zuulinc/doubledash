@@ -11,7 +11,8 @@ import animate from './animate';
  * ```
  * 
  * @param {Element} element
- * @param {object} [options={ direction: up|down|left|right, duration: 1s, delay: 0, repeat: 1 }] 
+ * @param {object} [options={ direction: up|down|left|right, duration: 1s, delay: 0, repeat: 1 }]
+ * @returns {Promise}
  */
  function slideOut(element, options) {
     options = options ? options : {};

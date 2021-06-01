@@ -12,6 +12,7 @@ import animate from './animate';
  * 
  * @param {Element} element
  * @param {object} [options={ direction: up|down|left|right, duration: 1s, delay: 0, repeat: 1 }]
+ * @returns {Promise}
  */
  function zoomingOut(element, options) {
     options = options ? options : {};

@@ -12,6 +12,7 @@ import animate from './animate';
  * 
  * @param {Element} element
  * @param {object} [options={ duration: 1s, delay: 0, repeat: 1 }]
+ * @returns {Promise}
  */
 function jello(element, options) {
     options = options ? options : {};

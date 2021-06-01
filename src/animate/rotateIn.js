@@ -11,7 +11,8 @@ import animate from './animate';
  * ```
  * 
  * @param {Element} element
- * @param {object} [options={ direction: downLeft|downRight|upLeft|upLeft, duration: 1s, delay: 0, repeat: 1 }] 
+ * @param {object} [options={ direction: downLeft|downRight|upLeft|upLeft, duration: 1s, delay: 0, repeat: 1 }]
+ * @returns {Promise}
  */
  function rotateIn(element, options) {
     options = options ? options : {};
