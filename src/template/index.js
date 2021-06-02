@@ -1,7 +1,7 @@
 import settings from './settings';
-import supplant from './supplant';
+import compile from './compile';
 
 export default {
     settings,
-    supplant
+    compile
 }

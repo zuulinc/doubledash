@@ -1,4 +1,4 @@
-import settings from '../template/settings';
+import settings from './settings';
 import escapeHtml from '../lang/escapeHtml';
 
 /**
@@ -7,7 +7,7 @@ import escapeHtml from '../lang/escapeHtml';
  * @param {Object} json 
  * @returns 
  */
-function supplant(template, json) {
+function compile(template, json) {
     if (template && template.nodeType === Node.ELEMENT_NODE) {
         template = template.innerHTML;
     }
@@ -57,4 +57,4 @@ function supplant(template, json) {
 
 }
 
-export default supplant;
+export default compile;
