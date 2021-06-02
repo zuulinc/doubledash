@@ -4,7 +4,7 @@ DoubleDash template is a simple templating language.
 
 It uses a template and an input object to generate HTML or other text formats. DoubleDash templates look like regular text with embedded expressions.
 
-```js
+```html
 <p>{{firstname}} {{lastname}}</p>
 ```
 
@@ -44,7 +44,7 @@ Expressions are compiled to produce the output as follows:
 
 DoubleDash template expressions can also be dot-separated paths.
 
-```js
+```html
 {{person.firstname}} {{person.lastname}}
 ```
 
