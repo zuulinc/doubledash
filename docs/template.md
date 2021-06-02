@@ -15,6 +15,7 @@ Returns **[string](https://developer.mozilla.org/docs/Web/JavaScript/Reference/G
 <br>
 <br>
 
+## Overview
 
 It uses a template and an input object to generate HTML or other text formats. DoubleDash templates look like regular text with embedded expressions.
 
