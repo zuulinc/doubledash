@@ -2,6 +2,20 @@
 
 DoubleDash template is a simple templating language.
 
+```js
+__.template.compile(template, json);
+```
+
+#### Parameters
+
+*   `template` **[string](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String)** 
+*   `json` **[object](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object)** 
+
+Returns **[string](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String)**  
+<br>
+<br>
+
+
 It uses a template and an input object to generate HTML or other text formats. DoubleDash templates look like regular text with embedded expressions.
 
 ```html
